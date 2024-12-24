@@ -27,3 +27,5 @@
 - [易盛信息MeterSphere接口测试使用经验](https://blog.fit2cloud.com/?p=1601)
 - [基于JMeter的性能测试方案演进之路](https://blog.fit2cloud.com/?p=1621)
 - [永福信息基于MeterSphere从项目维度持续推进测试任务](https://blog.fit2cloud.com/?p=1654)
+- [领先未来的MeterSphere接口测试实践](https://blog.fit2cloud.com/?p=3100)
+- [MeterSphere接口测试在互联网零售平台朴朴超市的实践分享](https://blog.fit2cloud.com/?p=3302)

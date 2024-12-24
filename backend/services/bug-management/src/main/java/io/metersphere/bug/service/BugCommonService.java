@@ -42,7 +42,6 @@ import java.util.stream.Collectors;
  * @author song-cc-rock
  */
 @Service
-@Transactional(rollbackFor = Exception.class)
 public class BugCommonService {
 
 	@Resource
@@ -143,6 +142,7 @@ public class BugCommonService {
 	 * @param projectId 项目ID
 	 * @param bugIds 缺陷ID集合
 	 */
+	@Transactional(rollbackFor = Exception.class)
 	public void clearAssociateResource(String projectId, List<String> bugIds) {
 		// 清空附件(关联, 本地上传, 富文本)
 		FileAssociationExample example = new FileAssociationExample();
